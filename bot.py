@@ -33,7 +33,7 @@ async def start(client, message):
             l = ["فايت للكروب وماتتفاعل ؟ ","تعال اعزمك  ع موطه ","تحبني لولا؟","ممكن نتعرف ؟","ناس تريدك تعالل !","شلونك؟","هلو","ها","تعال محتاجك " ,"مشتاقلك ","شلونك","ممكن بوسه","هلو"]
             r = random.choice(l)
             await bot.send_message(message.chat.id,f"{r} @{username}")
-            await asyncio.sleep(210)
+            await asyncio.sleep(100)
         start(client,message)
 
 bot.run()
