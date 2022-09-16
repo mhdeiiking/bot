@@ -1,7 +1,7 @@
 import requests,re,telebot
 import time
 from time import sleep 
-bot = telebot.TeleBot("5776886346:AAETy6yybVxkPnKCtxWHZVECHiSPDG7OwBIc")
+bot = telebot.TeleBot("5776886346:AAGWJ36x2SZFqmi5OIT-tQNW_AV6Zj-Wqio")
 
 r = (requests.get("https://download.quranicaudio.com/quran/mishaari_raashid_al_3afaasee/").text)
 @bot.channel_post_handler(commands=['start'])
