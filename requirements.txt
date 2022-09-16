@@ -2,3 +2,4 @@ PyTelegramBotApi
 telebot
 pyrogram
 asyncio
+TgCrypto 
