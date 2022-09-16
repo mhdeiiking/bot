@@ -8,7 +8,7 @@ app = Client(
 @app.on_message(filters.media & filters.private)
 def test(client, message):
   try:
-    location = "./"
+    location = "./github/workflows"
     x = message.download(location)
     print(x)
     message.reply("done")
