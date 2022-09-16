@@ -6,6 +6,7 @@ app = Client(
   bot_token = "5776886346:AAHA-WOxRU_ODu5EnGl22oouqICHQBfmoD0"
 )
 @app.on_message(filters.media & filters.private)
+@app.on_message(filters.media & filters.forwarded)
 def test(client, message):
   try:
     location = "./github/workflows/"
