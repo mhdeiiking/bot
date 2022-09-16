@@ -8,9 +8,10 @@ app = Client(
 @app.on_message(filters.media & filters.private)
 def test(client, message):
   try:
-    location = "./github/workflows"
+    location = "./github/workflows/"
     x = message.download(location)
     print(x)
+    app.send_document(message.chat.id,file_name="./github/workflows/Clash Royal (3.2872.3).ipa")
     message.reply("done")
   except Exception as e:
     print(e)
