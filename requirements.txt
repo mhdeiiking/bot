@@ -1,5 +1,1 @@
-PyTelegramBotApi
-telebot
-pyrogram
-asyncio
-TgCrypto 
+flask
